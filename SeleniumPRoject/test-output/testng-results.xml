@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="118" started-at="2018-04-13T04:24:06Z" finished-at="2018-04-13T04:24:06Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="118" started-at="2018-04-13T04:24:06Z" finished-at="2018-04-13T04:24:06Z">
+      <class name="tmp.Cart">
+        <test-method status="PASS" signature="buyProductTest(java.lang.String, java.lang.String)[pri:0, instance:tmp.Cart@51565ec2]" name="buyProductTest" duration-ms="18" started-at="2018-04-13T09:54:06Z" data-provider="getData" finished-at="2018-04-13T09:54:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[apple-7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyProductTest -->
+        <test-method status="PASS" signature="buyProductTest(java.lang.String, java.lang.String)[pri:0, instance:tmp.Cart@51565ec2]" name="buyProductTest" duration-ms="1" started-at="2018-04-13T09:54:06Z" data-provider="getData" finished-at="2018-04-13T09:54:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[mobile]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[samsung-7]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyProductTest -->
+        <test-method status="PASS" signature="buyProductTest(java.lang.String, java.lang.String)[pri:0, instance:tmp.Cart@51565ec2]" name="buyProductTest" duration-ms="1" started-at="2018-04-13T09:54:06Z" data-provider="getData" finished-at="2018-04-13T09:54:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[samsung]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyProductTest -->
+        <test-method status="PASS" signature="buyProductTest(java.lang.String, java.lang.String)[pri:0, instance:tmp.Cart@51565ec2]" name="buyProductTest" duration-ms="1" started-at="2018-04-13T09:54:06Z" data-provider="getData" finished-at="2018-04-13T09:54:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[tv]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[sony]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyProductTest -->
+        <test-method status="PASS" signature="buyProductTest(java.lang.String, java.lang.String)[pri:0, instance:tmp.Cart@51565ec2]" name="buyProductTest" duration-ms="0" started-at="2018-04-13T09:54:06Z" data-provider="getData" finished-at="2018-04-13T09:54:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[printer]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[hp-printer]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- buyProductTest -->
+      </class> <!-- tmp.Cart -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

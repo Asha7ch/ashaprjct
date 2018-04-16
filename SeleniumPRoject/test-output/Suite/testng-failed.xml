@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [Suite]" parallel="tests">
+  <parameter name="browser" value="ie"/>
+  <test name="Test-R1(failed)" parallel="tests">
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.acttime.projectcustTest.CustomerProjectTest">
+        <methods>
+          <include name="configAM"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="configBM"/>
+          <include name="configBM"/>
+          <include name="createCusomerWithDesp"/>
+          <include name="createCustomerTest"/>
+          <include name="configBc"/>
+          <include name="configBc"/>
+          <include name="configBc"/>
+        </methods>
+      </class> <!-- com.acttime.projectcustTest.CustomerProjectTest -->
+    </classes>
+  </test> <!-- Test-R1(failed) -->
+  <test name="Test-R2(failed)" parallel="tests">
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.acttime.projectcustTest.CustomerProjectTest">
+        <methods>
+          <include name="configAM"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="configBM"/>
+          <include name="configBM"/>
+          <include name="createCusomerWithDesp"/>
+          <include name="createCustomerTest"/>
+          <include name="configBc"/>
+          <include name="configBc"/>
+          <include name="configBc"/>
+        </methods>
+      </class> <!-- com.acttime.projectcustTest.CustomerProjectTest -->
+    </classes>
+  </test> <!-- Test-R2(failed) -->
+  <test name="Test-R3(failed)" parallel="tests">
+    <parameter name="browser" value="ie"/>
+    <classes>
+      <class name="com.acttime.projectcustTest.CustomerProjectTest">
+        <methods>
+          <include name="configAM"/>
+          <include name="configAM"/>
+          <include name="configBM"/>
+          <include name="configBM"/>
+          <include name="configBM"/>
+          <include name="createCusomerWithDesp"/>
+          <include name="createCustomerTest"/>
+          <include name="configBc"/>
+          <include name="configBc"/>
+          <include name="configBc"/>
+        </methods>
+      </class> <!-- com.acttime.projectcustTest.CustomerProjectTest -->
+    </classes>
+  </test> <!-- Test-R3(failed) -->
+</suite> <!-- Failed suite [Suite] -->
